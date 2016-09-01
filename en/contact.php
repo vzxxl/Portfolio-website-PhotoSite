@@ -25,7 +25,7 @@ include('layouts/header.php');
           ?>
       </div>-->
 <div id="popup-section">
-        <form id="mail-form" action="request.php" method="post">
+        <form id="mail-form" action="../request.php" method="post">
           <label for="form_name" style="padding-right:3%">Name:</label>
           <input style="margin-top:5px; margin-bottom:20px; clear:right" id="form_name" type="text" name="name"><br>
           <label for="form_email">E-mail:</label>
