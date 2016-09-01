@@ -1,4 +1,10 @@
-<?php include('layouts/arrays.php'); ?>
+<?php include('layouts/arrays.php'); 
+if (basename($_SERVER['REQUEST_URI']) == 'contact.php') {
+    $specialBackground = 'special';
+} else {
+    $specialBackground = '';
+}; 
+?>
 
 <!DOCTYPE html>
 <html>
@@ -19,7 +25,7 @@
 	<meta name="description" content="<?php echo $pageDescription; ?>">
 	<meta name="keywords" content="<?php echo $pageDescription; ?>">
 	</head>
-<body class="body">
+<body class="body <?php echo $specialBackground; ?>">
 	<header>
 		<div class="header-container">
 		<div class="language">
