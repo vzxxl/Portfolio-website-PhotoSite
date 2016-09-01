@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Регина Тихонова | Заказать фотографа спб</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="shortcut icon" href="favicon.png" type="image/png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
-  <script src="js/modernizr.js"></script>
-  <meta name="description" content="Мои контакты. На этой странице вы узнаете, как со мной связаться, чтобы заказать фотосессию в спб или обработку фотографий">
-  <meta name="keywords" content="Обо мне, контакты, связаться со мной, фотограф спб недорого">
-  </head>
-<body>
-  <header>
-    <div class="header-container">
-    <div class="language">
-   <a href="contact.html"><div class="language-ru"></div></a>
-   <a href="en/contact.html"><div class="language-en"></div></a>
-    </div>
-    <div class="logo-wrapper">
-    <a href="index.html" id="logo">
-      <h1>Regina Tihonova</h1>
-      <h2>Фотограф и ретушер</h2>
-    </a>
-    </div>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Снимаю</a>
-        </li>
-        <li>
-          <a href="about.html">Обо мне</a>
-        </li>
-        <li>
-          <a href="contact.html" class="selected">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    </div>     
-  </header>
+<?php 
+$pageTitle = 'Регина Тихонова | Заказать фотографа спб';
+$pageDescription = 'Мои контакты. Как со мной связаться, чтобы заказать фотосессию в спб или обработку фотографий';
+$pageKeywords = 'фотограф спб, фотосессия в спб, обработка фото купить, семейная фотосессия в спб, обработка фото услуги, фотосессия в детском саду';
+include('layouts/header.php'); 
+?>
+
+
   <div class="fullscreen-bg">
     <video loop muted autoplay class="fullscreen-bg__video">
         <source src="video/video1.mp4" type="video/mp4">
@@ -107,11 +69,9 @@
       </section>-->
 
       <div id="border_fixer" style="display:block; height: 500px"></div>
-    <footer>
-      <a href="http://www.vk.com/club107358106" target="_blank">
-        <img src="img/vk_logo.png" alt="VK Logo" class="social-icon"></a>
-      <p style="color:#999">&copy; 2015-2016 Регина Тихонова</p>
-    </footer>
+    
+        <?php include('layouts/footer.php'); ?>
+      
   </div>
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

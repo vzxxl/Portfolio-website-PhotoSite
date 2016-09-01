@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Regina Tihonova | Photographer and retoucher | Retoucher freelancer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <link rel="shortcut icon" href="../favicon.png" type="image/png">
-  <script src="../js/modernizr.js"></script>
-  <meta name="description" content="Im an experienced freelance photographer and retoucher. I do photoshop and other photo editing. If you want to do magic with your photoes feel free to contact me">
-  <meta name="keywords" content="photographer, retoucher, freelancer, find a freelancer, russian freelancer">
-  </head>
-<body class="body" style="margin:0">
-<!--<img id="monkeys" src="img/мартышки.png" alt="С Новым Годом!">-->
- <header>
-  
-    <div class="header-container">
-    <div class="language">
-   <a href="/about.html"><div class="language-ru"></div></a>
-   <a href="about.html"><div class="language-en"></div></a>
-    </div>
-    <div class="logo-wrapper">
-    <a href="index.html" id="logo">
-      <h1>Regina Tihonova</h1>
-      <h2>Photographer and retoucher</h2>
-    </a>
-    </div>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="about.html" class="selected">About me</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    </div>
-  </header>
+<?php
+$pageTitle = 'Regina Tihonova | Photographer freelancer | Retoucher Freelancer';
+$pageDescription = 'Im a professional freelance photographer and retoucher';
+$pageKeywords = 'photographer, freelancer, freelancer photo, edit photo, photo retouching, photo editing, find freelancer';
+include('layouts/header.php');
+?>
+
+
   <div id="wrapper">
     <div class="profile-photo-container" style="text-align: center">
       <img src="../img/Regina.jpg" alt="Me" class="profile-photo"></div>
@@ -55,11 +17,9 @@
     </p>
   </div>
 </div>
-<footer>
-  <a href="http://www.vk.com/club107358106" target="_blank">
-    <img src="../img/vk_logo.png" alt="VK Logo" class="social-icon"></a>
-  <p>&copy; 2015-2016 Regina Tihonova</p>
-</footer>
+
+      <?php include('layouts/footer.php'); ?>
+      
 </div>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

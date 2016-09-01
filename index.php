@@ -1,57 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Регина Тихонова | Фотограф спб недорого</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/lightbox.css">
-	<link rel="shortcut icon" href="favicon.png" type="image/png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
-	<script src="js/modernizr.js"></script>
-	<meta name="description" content="Персональный сайт фотографа Регины Тихоновой. Примеры работ, фотосессия в спб. Если вы ищете адекватного и недорогого фотографа для проведения фотосессии или обработки фотографий, вы можете заказать эти услуги на данном сайте">
-	<meta name="keywords" content="фотограф спб, фотосессия в спб, фотосессия в спб недорого, обработка фото купить, семейная фотосессия в спб, обработка фото услуги, фотосессия в спб недорого семейная, фотосессия с мужем, фотосессия в детском саду">
-	</head>
-<body class="body">
-	<header>
-		<div class="header-container">
-		<div class="language">
-   <a href="index.html"><div class="language-ru"></div></a>
-   <a href="en/index.html"><div class="language-en"></div></a>
-    </div>
-		<div class="logo-wrapper">
-		<a href="index.html" id="logo">
-			<h1>Regina Tihonova</h1>
-			<h2>Фотограф и ретушер</h2>
-		</a>
-		</div>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html" class="selected">Снимаю</a>
-				</li>
-				<li>
-					<a href="about.html">Обо мне</a>
-				</li>
-				<li>
-					<a href="contact.html">Контакты</a>
-				</li>
-			</ul>
-		</nav>
-		</div>		
-		  <!--audio id="audio" controls>
-    <source src="audio/1.mp3" type="audio/mp3">
-    Тег audio не поддерживается вашим браузером. 
-    <a href="audio/1.mp3">Скачайте музыку</a>
-  </audio>-->
+<?php 
+$pageTitle = 'Регина Тихонова | Фотограф спб недорого';
+$pageDescription = 'Персональный сайт фотографа Регины Тихоновой. Примеры работ, фотосессия в спб, ретуш фотографий';
+$pageKeywords = 'фотограф спб, фотосессия в спб, обработка фото купить, семейная фотосессия в спб, обработка фото услуги, фотосессия в детском саду';
+include('layouts/header.php'); 
+?>
 
-		
-	</header>
 	<div id="wrapper">
 		<section>
 			<ul id="gallery">
@@ -250,11 +203,9 @@
     h.appendChild(s);
   }})();</script>
   <div id="social-networks"><div class="pluso" data-background="transparent" data-options="medium,round,line,horizontal,counter,theme=06" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div></div>
-		<footer>
-			<a href="http://www.vk.com/club107358106" target="_blank">
-				<img src="img/vk_logo.png" alt="VK Logo" class="social-icon"></a>
-			<p>&copy; 2015-2016 Regina Tihonova</p>
-		</footer>
+		
+       <?php include('layouts/footer.php'); ?>
+  
 	</div>
 	<!-- Lightbox-->
  <script src="js/lightbox.js"></script>
